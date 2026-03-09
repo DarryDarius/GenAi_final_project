@@ -7,8 +7,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['DM Sans', 'system-ui', 'sans-serif'],
-        display: ['Playfair Display', 'serif'],
+        sans: ['Outfit', 'system-ui', 'sans-serif'],
+        display: ['Cormorant Garamond', 'serif'],
+      },
+      colors: {
+        cream: '#faf8f5',
+        blush: '#e8d5d0',
+        sage: '#9ca892',
       },
     },
   },

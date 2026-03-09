@@ -1,43 +1,43 @@
-# 妆容风格与适用场景
+# Makeup Styles and Occasions
 
-## 日常妆 (Everyday Makeup)
-- 特点：自然、清淡、提升气色
-- 要点：轻薄底妆、自然眉、浅色腮红、豆沙或裸色唇
-- 眼妆：大地色或淡粉棕，内眼线即可
-- 适用：上班、上学、休闲外出
+## Everyday Makeup
+- Style: Natural, light, healthy glow
+- Focus: Light base, natural brows, soft blush, mauve or nude lips
+- Eyes: Browns or soft pink-brown, tightline only
+- Occasion: Work, school, casual
 
-## 职场妆 (Professional/Office Makeup)
-- 特点：干练、得体、不过分艳丽
-- 要点：哑光或微光底妆、利落眉形、柔和修容
-- 配色：中性色、大地色、豆沙色系
-- 适用：面试、会议、办公
+## Professional/Office Makeup
+- Style: Polished, appropriate, not flashy
+- Focus: Matte or satin base, defined brows, soft contour
+- Colors: Neutrals, browns, mauves
+- Occasion: Interviews, meetings, office
 
-## 约会妆 (Date Makeup)
-- 特点：温柔、甜美、有女人味
-- 要点：清透底妆、柔和腮红、眼妆可稍浓
-- 配色：粉调、玫瑰色、蜜桃色
-- 适用：约会、聚会
+## Date Makeup
+- Style: Soft, sweet, feminine
+- Focus: Fresh base, soft blush, slightly bolder eyes
+- Colors: Pink, rose, peach
+- Occasion: Dating, get-togethers
 
-## 派对妆 (Party/Glam Makeup)
-- 特点：亮眼、夸张、适合拍照
-- 要点：可加重修容、亮片眼影、浓密睫毛
-- 配色：金色、红唇、高对比
-- 适用：派对、晚会、活动
+## Party/Glam Makeup
+- Style: Bold, striking, photo-ready
+- Focus: Strong contour, shimmer, full lashes
+- Colors: Gold, red lip, high contrast
+- Occasion: Parties, events
 
-## 韩式清新妆 (K-Beauty Fresh)
-- 特点：水光肌、自然眉、咬唇或渐变唇
-- 要点：高光提亮、少修容、强调通透感
-- 配色：粉嫩、珊瑚、裸色
-- 适用：日常、约会
+## K-Beauty Fresh
+- Style: Dewy skin, natural brows, gradient or bitten lip
+- Focus: Highlighter, minimal contour, glass skin
+- Colors: Pink, coral, nude
+- Occasion: Everyday, dates
 
-## 欧美立体妆 (Western Glam)
-- 特点：修容重、轮廓感强、挑眉
-- 要点：大面积修容高光、烟熏或 cut crease
-- 配色：大地色、裸色唇、古铜
-- 适用：派对、拍照、个性造型
+## Western Glam
+- Style: Heavy contour, strong structure, arched brows
+- Focus: Full contour and highlight, smokey or cut crease
+- Colors: Browns, nude lip, bronze
+- Occasion: Parties, photos, bold looks
 
-## 日系甜美妆 (J-Beauty Sweet)
-- 特点：无辜眼、腮红重、嘟嘟唇
-- 要点：眼下腮红、棕色眼线、高光
-- 配色：橘粉、蜜桃、奶茶色
-- 适用：约会、出游
+## J-Beauty Sweet
+- Style: Doe eyes, prominent blush, glossy lips
+- Focus: Under-eye blush, brown liner, highlighter
+- Colors: Orange-pink, peach, milk tea
+- Occasion: Dates, outings

@@ -1,48 +1,48 @@
-# 五官特点与化妆技巧
+# Face Features and Makeup Tips
 
-## 单眼皮 (Monolid)
-- 眼影：哑光打底，加深眼窝，可在眼尾加深
-- 眼线：可画内眼线或微上扬外眼线，不宜过粗
-- 睫毛：卷翘睫毛很重要，可贴假睫毛增强
-- 建议：避免大面积亮片，易显肿
+## Monolid
+- Eyeshadow: Matte base, deepen crease, darker at outer corner
+- Liner: Tightline or subtle wing; avoid thick lines
+- Lashes: Curl and volumize; falsies can help
+- Avoid: Heavy shimmer; can look puffy
 
-## 双眼皮 (Double Eyelid)
-- 眼影：可尝试多种晕染方式，cut crease、渐层皆可
-- 眼线：标准画法适用，可根据眼型调整
-- 睫毛：夹翘后刷睫毛膏即可
-- 优势：可驾驭更多眼妆风格
+## Double Eyelid
+- Eyeshadow: Many techniques work: cut crease, gradient
+- Liner: Standard application; adjust for shape
+- Lashes: Curl and mascara
+- Advantage: Versatile for eye looks
 
-## 内双 (Inner Double Eyelid)
-- 眼影：避免过宽，重点在睫毛根部附近
-- 眼线：细眼线更自然，可适当拉长眼尾
-- 技巧：睁眼时能看到的范围内晕染
+## Inner Double Lid
+- Eyeshadow: Keep narrow; focus near lash line
+- Liner: Thin line; slight elongation at outer corner
+- Tip: Blend within visible lid area when open
 
-## 丹凤眼 / 上挑眼 (Upturned Eyes)
-- 眼线：可平拉或微下垂平衡
-- 眼影：下眼尾可适当加深
-- 眉形：避免过挑，否则会过于锐利
+## Upturned Eyes
+- Liner: Keep straight or slightly down at outer corner
+- Eyeshadow: Deepen lower outer corner
+- Brows: Avoid over-arched; can look harsh
 
-## 下垂眼 (Downturned Eyes)
-- 眼线：眼尾微上扬可提升眼神
-- 眼影：上眼尾加深并向上提
-- 睫毛：眼尾睫毛重点加密
+## Downturned Eyes
+- Liner: Slight lift at outer corner
+- Eyeshadow: Deepen and lift upper outer corner
+- Lashes: Emphasis on outer lashes
 
-## 厚唇 (Full Lips)
-- 唇线：可略向内缩画唇线，或直接满涂
-- 避免：过亮唇釉可能显更厚，哑光更收敛
-- 适合：各种饱和色、渐层、咬唇
+## Full Lips
+- Liner: Slightly inward or full application
+- Avoid: Very glossy; matte reads more defined
+- Suited: Saturated colors, gradients, bitten lip
 
-## 薄唇 (Thin Lips)
-- 唇线：可略向外扩，打造饱满感
-- 唇釉：光泽感、浅色可视觉膨胀
-- 避免：过深哑光可能显更薄
+## Thin Lips
+- Liner: Slightly outward for fullness
+- Gloss: Shine and lighter shades add volume
+- Avoid: Deep matte can look thinner
 
-## 高颧骨 (High Cheekbones)
-- 腮红：打在颧骨下方或苹果肌，避免颧骨最高点
-- 修容：颧骨下方轻扫阴影
-- 优势：适合欧美立体妆
+## High Cheekbones
+- Blush: Below cheekbone or apple; not on peak
+- Contour: Light shadow under cheekbone
+- Advantage: Suits Western glam
 
-## 扁平脸 (Flat Face)
-- 修容：重点在鼻梁、眼窝、下颌
-- 高光：颧骨、额头、鼻梁、下巴
-- 腮红：斜向打可增加立体感
+## Flat Face
+- Contour: Nose, crease, jaw
+- Highlight: Cheekbones, forehead, nose, chin
+- Blush: Angular application for structure

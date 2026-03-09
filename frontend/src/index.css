@@ -3,5 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply font-sans antialiased bg-stone-50 text-stone-800;
+  @apply font-sans antialiased text-slate-800;
+  background: linear-gradient(135deg, #fdfbfb 0%, #f5f0eb 50%, #faf5f0 100%);
+  min-height: 100vh;
 }

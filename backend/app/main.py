@@ -1,6 +1,6 @@
 """
-美妆推荐 API - FastAPI 入口
-核心流程：上传照片 → Vision 分析 → RAG 检索 → LLM 推荐
+Makeup Recommendation API - FastAPI entry
+Flow: upload photo → Vision analysis → RAG retrieval → LLM recommendation
 """
 import base64
 from pathlib import Path
@@ -35,31 +35,27 @@ def init_openai():
     import os
     key = os.environ.get("OPENAI_API_KEY")
     if not key:
-        raise ValueError("请设置环境变量 OPENAI_API_KEY")
+        raise ValueError("Please set OPENAI_API_KEY environment variable")
     return OpenAI(api_key=key)
 
 
 def extract_rag_query(face_analysis: str) -> str:
-    """从面部分析 JSON 中提取关键词，用于 RAG 检索"""
+    """Extract keywords from face analysis JSON for RAG retrieval"""
     try:
-        # 尝试解析 JSON
         text = face_analysis.strip()
-        # 移除可能的 markdown 代码块
         if "```" in text:
             text = re.sub(r"```\w*\n?", "", text)
         data = json.loads(text)
         parts = []
-        if isinstance(data.get("face_shape"), str) and "无法判断" not in data["face_shape"]:
-            parts.append(data["face_shape"])
-        if isinstance(data.get("skin_tone"), str) and "无法判断" not in data["skin_tone"]:
-            parts.append(data["skin_tone"])
-        if isinstance(data.get("eye_type"), str) and "无法判断" not in data["eye_type"]:
-            parts.append(data["eye_type"])
+        for key in ("face_shape", "skin_tone", "eye_type"):
+            val = data.get(key)
+            if isinstance(val, str) and "unable to determine" not in val.lower():
+                parts.append(val)
         if parts:
-            return " ".join(parts) + " 适合的妆容 修容 腮红 眼影 唇膏"
+            return " ".join(parts) + " suitable makeup contour blush eyeshadow lipstick"
     except (json.JSONDecodeError, TypeError):
         pass
-    return "脸型 肤色 适合的妆容 修容 腮红 眼影 唇膏"
+    return "face shape skin tone makeup contour blush eyeshadow lipstick"
 
 
 @asynccontextmanager
@@ -71,8 +67,8 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="美妆推荐 API",
-    description="基于 RAG + Vision 的个性化妆容推荐",
+    title="Makeup Recommendation API",
+    description="AI-powered makeup recommendations via RAG + Vision",
     lifespan=lifespan,
 )
 
@@ -87,28 +83,27 @@ app.add_middleware(
 
 @app.get("/")
 def root():
-    return {"message": "美妆推荐 API", "docs": "/docs"}
+    return {"message": "Makeup Recommendation API", "docs": "/docs"}
 
 
 @app.post("/api/recommend")
 async def recommend_makeup(file: UploadFile = File(...)):
     """
-    上传面部照片，返回 AI 个性化妆容推荐
-    流程：Vision 分析 → RAG 检索 → LLM 生成推荐
+    Upload face photo, return AI makeup recommendations
+    Flow: Vision analysis → RAG retrieval → LLM recommendation
     """
     global client
     if not client:
-        raise HTTPException(status_code=500, detail="OpenAI 客户端未初始化")
+        raise HTTPException(status_code=500, detail="OpenAI client not initialized")
 
-    # 校验文件
     if file.content_type not in ALLOWED_TYPES:
         raise HTTPException(
             status_code=400,
-            detail=f"仅支持 jpeg/png/webp，当前: {file.content_type}",
+            detail=f"Only jpeg/png/webp supported, got: {file.content_type}",
         )
     content = await file.read()
     if len(content) > MAX_FILE_SIZE:
-        raise HTTPException(status_code=400, detail="文件不能超过 5MB")
+        raise HTTPException(status_code=400, detail="File size must not exceed 5MB")
 
     img_base64 = base64.b64encode(content).decode("utf-8")
 

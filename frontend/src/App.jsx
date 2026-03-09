@@ -22,7 +22,7 @@ function App() {
       })
       if (!res.ok) {
         const err = await res.json().catch(() => ({}))
-        throw new Error(err.detail || res.statusText || '请求失败')
+        throw new Error(err.detail || res.statusText || 'Request failed')
       }
       const data = await res.json()
       setResult(data)
@@ -40,29 +40,29 @@ function App() {
 
   return (
     <div className="min-h-screen">
-      <header className="border-b border-stone-200 bg-white/80 backdrop-blur">
-        <div className="max-w-2xl mx-auto px-4 py-5">
-          <h1 className="font-display text-2xl font-semibold text-stone-800">
-            美妆推荐
+      <header className="border-b border-slate-200/80 bg-white/70 backdrop-blur-md shadow-sm">
+        <div className="max-w-2xl mx-auto px-6 py-6">
+          <h1 className="font-display text-3xl font-semibold text-slate-800 tracking-tight">
+            Makeup Match
           </h1>
-          <p className="text-sm text-stone-500 mt-0.5">
-            上传面部照片，AI 基于 RAG 知识库为您推荐适合的妆容
+          <p className="text-slate-500 mt-1 font-light">
+            Upload a photo — AI analyzes your features and recommends makeup looks
           </p>
         </div>
       </header>
 
-      <main className="max-w-2xl mx-auto px-4 py-8">
+      <main className="max-w-2xl mx-auto px-6 py-10">
         {!result ? (
           <>
             <UploadZone onUpload={handleUpload} disabled={loading} />
             {loading && (
-              <div className="mt-6 flex items-center gap-3 text-stone-500">
-                <div className="w-5 h-5 border-2 border-stone-300 border-t-stone-600 rounded-full animate-spin" />
-                <span>正在分析面容并检索美妆知识…</span>
+              <div className="mt-8 flex items-center gap-3 text-slate-500">
+                <div className="w-5 h-5 border-2 border-slate-200 border-t-slate-600 rounded-full animate-spin" />
+                <span className="text-sm">Analyzing your face and retrieving makeup tips…</span>
               </div>
             )}
             {error && (
-              <div className="mt-6 p-4 rounded-xl bg-red-50 text-red-700 text-sm">
+              <div className="mt-8 p-4 rounded-xl bg-rose-50/80 border border-rose-200 text-rose-700 text-sm">
                 {error}
               </div>
             )}
@@ -72,8 +72,8 @@ function App() {
         )}
       </main>
 
-      <footer className="mt-16 py-6 border-t border-stone-200 text-center text-xs text-stone-400">
-        照片仅用于分析，不会长期存储。建议仅供参考，可根据个人喜好调整。
+      <footer className="mt-20 py-8 border-t border-slate-200/80 text-center text-xs text-slate-400">
+        Photos are used for analysis only and are not stored. Suggestions are general guidance — adjust to your preference.
       </footer>
     </div>
   )

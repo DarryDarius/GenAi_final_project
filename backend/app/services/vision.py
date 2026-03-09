@@ -1,5 +1,5 @@
 """
-面部分析服务 - 使用 OpenAI Vision API 分析脸型、肤色、五官
+Face analysis service - uses OpenAI Vision API to analyze face shape, skin tone, features
 """
 import base64
 from openai import OpenAI
@@ -7,21 +7,21 @@ from openai import OpenAI
 
 def analyze_face(image_base64: str, client: OpenAI) -> str:
     """
-    分析用户面部特征，返回结构化描述（脸型、肤色、五官特点）
+    Analyze facial features and return structured description (face shape, skin tone, eye type)
     """
-    prompt = """你是一位专业的美妆顾问。请根据这张面部照片，用中文简洁分析以下内容，以 JSON 格式输出（不要输出 markdown 代码块，只输出纯 JSON）：
+    prompt = """You are a professional makeup consultant. Analyze this face photo and output the following as pure JSON (no markdown, no code blocks):
 
 {
-  "face_shape": "圆脸/方脸/长脸/菱形脸/鹅蛋脸/心形脸/无法判断",
-  "skin_tone": "冷皮/暖皮/中性皮，以及肤色深浅（如：浅色、自然、深色）",
-  "eye_type": "单眼皮/双眼皮/内双，以及眼型特点（如：丹凤眼、下垂眼等）",
-  "other_features": "其他可能影响妆容的显著特征，如唇形、颧骨、是否戴眼镜等，用一句话概括"
+  "face_shape": "Round/Square/Oblong/Diamond/Oval/Heart/unable to determine",
+  "skin_tone": "Cool/Warm/Neutral undertone, plus depth (e.g., fair, medium, deep)",
+  "eye_type": "Monolid/Double lid/Inner double, plus eye shape (e.g., upturned, downturned)",
+  "other_features": "Other notable features affecting makeup (lip shape, cheekbones, glasses, etc.) in one sentence"
 }
 
-重要说明：
-1. 尽量根据可见信息做出合理推断。脸型可根据脸部轮廓（额头、颧骨、下巴比例）判断；肤色可根据额头、脸颊等暴露的皮肤区域判断，即使佩戴眼镜也能估计。
-2. 仅在照片严重模糊、角度偏差过大（如侧脸）、或面部被大面积遮挡时，才将对应字段设为"无法判断"。
-3. 保持客观、专业，可适当推断，避免过度保守。"""
+Important:
+1. Make reasonable inferences from visible information. Face shape from outline (forehead, cheekbones, jaw); skin tone from exposed areas (forehead, cheeks) even with glasses.
+2. Use "unable to determine" only when the photo is severely blurry, badly angled (e.g., side profile), or face is largely obscured.
+3. Stay objective and professional; reasonable inference is encouraged, avoid being overly conservative."""
 
     response = client.chat.completions.create(
         model="gpt-4o-mini",

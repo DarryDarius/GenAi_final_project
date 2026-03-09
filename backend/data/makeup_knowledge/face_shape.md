@@ -1,43 +1,43 @@
-# 脸型与妆容搭配
+# Face Shape and Makeup
 
-## 圆脸 (Round Face)
-- 脸型特征：脸颊饱满、下巴圆润、脸部宽度和长度相近
-- 修容：在脸颊两侧、下巴下方打阴影，拉长脸部线条；在颧骨上方打高光
-- 眉形：推荐略带弧度的挑眉，可增加脸部立体感
-- 腮红：斜向腮红，从颧骨向太阳穴方向扫，避免横打
-- 适合妆容：韩式清新妆、日系甜美妆
+## Round Face
+- Features: Full cheeks, soft jaw, similar width and length
+- Contour: Shadow on cheek sides and under chin to lengthen; highlight on cheekbones
+- Brows: Slightly arched brows to add structure
+- Blush: Angular application from cheekbone toward temple, avoid horizontal
+- Suited looks: K-beauty fresh, J-beauty sweet
 
-## 方脸 (Square Face)
-- 脸型特征：额骨、颧骨、下颌角较宽，棱角分明
-- 修容：在下颌角、额角打阴影柔和棱角；额头中央、颧骨上方打高光
-- 眉形：柔和的弧形眉，避免过于锋利
-- 腮红：圆形晕染在颧骨中央，可弱化棱角感
-- 适合妆容：欧美立体妆、职场干练妆
+## Square Face
+- Features: Wide forehead, cheekbones, and jaw; angular
+- Contour: Shadow at jaw and temples to soften; highlight on forehead center and cheekbones
+- Brows: Soft arched brows, avoid harsh angles
+- Blush: Circular blend on cheek center to soften angles
+- Suited looks: Western glam, professional office
 
-## 长脸 (Oblong Face)
-- 脸型特征：脸部长度明显大于宽度，可能额头或下巴较长
-- 修容：在额头和下巴打阴影缩短视觉长度；在颧骨外侧横向打高光
-- 眉形：平直或微微下垂的眉形，避免高挑眉
-- 腮红：横向打在颧骨中央，增加脸部宽度感
-- 适合妆容：温柔日常妆、法式慵懒妆
+## Oblong Face
+- Features: Face length noticeably greater than width; may have long forehead or chin
+- Contour: Shadow on forehead and chin to shorten; highlight horizontally on outer cheekbones
+- Brows: Straight or slightly downturned, avoid high arches
+- Blush: Horizontal on cheek center to add width
+- Suited looks: Soft everyday, French effortless
 
-## 菱形脸 (Diamond Face)
-- 脸型特征：颧骨最宽，额头和下巴较窄
-- 修容：在颧骨外侧打阴影；在额头两侧、下巴打高光
-- 眉形：柔和的眉形，眉尾略向外延伸
-- 腮红：打在颧骨下方凹陷处，避免在颧骨最高点
-- 适合妆容：气质女神妆、晚宴妆
+## Diamond Face
+- Features: Cheekbones widest; narrower forehead and chin
+- Contour: Shadow on outer cheekbones; highlight on temple and chin
+- Brows: Soft shape with slight outward extension
+- Blush: Below cheekbone hollow, avoid peak point
+- Suited looks: Elegant evening, formal events
 
-## 鹅蛋脸 (Oval Face)
-- 脸型特征：比例均衡，额头略宽于下巴，颧骨柔和
-- 修容：可轻描淡写，或按个人喜好微调
-- 眉形：多种眉形都适合，可根据妆容风格选择
-- 腮红：标准苹果肌位置或颧骨处均可
-- 适合妆容：几乎所有妆容风格都适合，是最通用的脸型
+## Oval Face
+- Features: Balanced proportions; forehead slightly wider than chin, soft cheekbones
+- Contour: Light touch or personal preference
+- Brows: Most shapes work; choose by style
+- Blush: Apple of cheek or cheekbone
+- Suited looks: Almost all styles; most versatile
 
-## 心形脸 (Heart Face)
-- 脸型特征：额头较宽，下巴尖细
-- 修容：在额头两侧、太阳穴打阴影；在下巴打高光
-- 眉形：柔和弧度的眉形，眉尾不要过细
-- 腮红：打在颧骨下方，可平衡上宽下窄
-- 适合妆容：甜美约会妆、少女系妆容
+## Heart Face
+- Features: Wider forehead, pointed chin
+- Contour: Shadow on temples and sides; highlight on chin
+- Brows: Soft arch, avoid overly thin tails
+- Blush: Below cheekbone to balance proportions
+- Suited looks: Sweet date, youthful styles

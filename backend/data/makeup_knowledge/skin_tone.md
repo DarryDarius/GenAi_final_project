@@ -1,37 +1,37 @@
-# 肤色与美妆色系
+# Skin Tone and Makeup Colors
 
-## 冷皮 (Cool Undertone)
-- 特征：手腕血管偏蓝紫色、佩戴银饰更好看、皮肤偏粉白或灰白
-- 腮红推荐：玫红、玫瑰粉、梅子色、薰衣草紫
-- 唇膏推荐：粉红、梅红、浆果色、冷调豆沙
-- 眼影推荐：冷调大地色、灰棕、粉紫、蓝灰色
-- 修容：偏灰调的修容，避免橙色调
-- 雷区：过于暖的橘色、土黄色可能显脏
+## Cool Undertone
+- Signs: Blue/purple wrist veins; silver jewelry flatters; pink or grayish skin
+- Blush: Rose, pink, plum, lavender
+- Lips: Pink, berry, cool mauve
+- Eyeshadow: Cool browns, gray-brown, pink-purple, blue-gray
+- Contour: Gray-toned; avoid orange
+- Avoid: Overly warm oranges and yellows
 
-## 暖皮 (Warm Undertone)
-- 特征：手腕血管偏绿、佩戴金饰更好看、皮肤偏黄或米色
-- 腮红推荐：杏色、橘粉、珊瑚色、蜜桃色
-- 唇膏推荐：橘红、砖红、南瓜色、暖豆沙
-- 眼影推荐：暖棕、金棕、橘棕、蜜桃色
-- 修容：暖调修容，可可色、棕褐色
-- 雷区：冷粉、灰紫可能显灰
+## Warm Undertone
+- Signs: Green wrist veins; gold jewelry flatters; yellow or beige skin
+- Blush: Peach, coral, apricot
+- Lips: Orange-red, brick, pumpkin, warm mauve
+- Eyeshadow: Warm browns, gold-brown, peach
+- Contour: Warm cocoa, tan
+- Avoid: Cool pinks and grays can look muddy
 
-## 中性皮 (Neutral Undertone)
-- 特征：血管颜色蓝绿难分、金银饰皆宜、肤色均衡
-- 腮红推荐：中性粉、裸粉、豆沙色均可
-- 唇膏推荐：玫瑰色、豆沙色、裸色系
-- 眼影推荐：中性大地色、玫瑰金、烟熏
-- 修容：中性灰棕
-- 优势：大部分色系都适合，可根据场合和个人喜好灵活选择
+## Neutral Undertone
+- Signs: Blue-green veins; both metals work; balanced skin
+- Blush: Neutral pink, nude, mauve
+- Lips: Rose, mauve, nude
+- Eyeshadow: Neutral browns, rose gold, smokey
+- Contour: Neutral gray-brown
+- Advantage: Most color families work; flexible by occasion
 
-## 深色肤色 (Deep Skin)
-- 腮红：深玫瑰、紫红、古铜色、深珊瑚
-- 唇膏：深红、酒红、巧克力棕、深紫
-- 眼影：金色、古铜、深棕、亮色点缀
-- 注意：饱和度可更高，浅色可能不显色
+## Deep Skin
+- Blush: Deep rose, wine, bronze, deep coral
+- Lips: Deep red, wine, chocolate, deep purple
+- Eyeshadow: Gold, bronze, deep brown, bright accents
+- Note: Higher saturation; light shades may not show
 
-## 浅色肤色 (Fair/Light Skin)
-- 腮红：淡粉、杏粉、浅珊瑚
-- 唇膏：裸粉、豆沙、浅玫瑰
-- 眼影：柔和大地色、浅粉棕
-- 注意：避免过深过浓，容易显老
+## Fair/Light Skin
+- Blush: Soft pink, peach, light coral
+- Lips: Nude pink, mauve, light rose
+- Eyeshadow: Soft browns, light pink-brown
+- Note: Avoid too dark or heavy; can age the look
