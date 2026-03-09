@@ -5,6 +5,10 @@ RAG 知识库构建脚本
 import os
 from pathlib import Path
 
+# 加载 backend/.env
+from dotenv import load_dotenv
+load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+
 from openai import OpenAI
 import chromadb
 from chromadb.config import Settings
