@@ -3,6 +3,8 @@
 # Email: sijieg@uchicago.edu
 A makeup recommendation system built with **RAG (Retrieval Augmented Generation)**: users upload a face photo → AI analyzes face shape, skin tone, and features → retrieves from a makeup knowledge base → generates personalized makeup recommendations.
 
+Report.md is the project report that answers the course grading rubric mentioned in Ed Discussion.
+
 ## Tech Stack
 
 - **RAG**: ChromaDB + OpenAI `text-embedding-3-small` for vector retrieval over a makeup knowledge base

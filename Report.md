@@ -1,6 +1,6 @@
-# Grading Rubric Response
-
-This document directly addresses the grading criteria for the Makeup Match project.
+# Report
+# Name: Sijie Guo
+# Email: sijieg@uchicago.edu
 
 ---
 
@@ -36,19 +36,15 @@ This document directly addresses the grading criteria for the Makeup Match proje
 
 ## 2. How did you use AI to build your project?
 
-AI was used extensively to develop this project.
 
 ### AI-Assisted Development
 - **Cursor / AI pair programming:** Used for scaffolding the project, writing backend services (FastAPI, RAG, Vision), and implementing the frontend (React, Vite, Tailwind). AI helped with boilerplate, error handling, and wiring components together.
 - **Prompt design:** AI-assisted iteration on Vision and recommendation prompts (e.g., reducing “unable to determine” when glasses are present).
 - **Debugging:** AI used to diagnose API integration issues, ChromaDB setup, and CORS configuration.
-- **Translations and copy:** AI translated the project from Chinese to English and refined UI copy.
-- **Styling:** AI helped design the frontend palette (cream, blush, sage, terracotta), layout, and animations.
 
 ### AI Models in the Product
 - **GPT-4o-mini (Vision):** Face analysis.
 - **text-embedding-3-small:** RAG embeddings.
 - **GPT-4o:** Final recommendation generation from face analysis and RAG context.
 
-### Summary
-Both the **development process** and the **product itself** rely on AI. The product uses RAG, Vision, and LLMs as taught in class; the build process used AI coding tools throughout.
+
