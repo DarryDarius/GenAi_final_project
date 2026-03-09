@@ -40,40 +40,51 @@ function App() {
 
   return (
     <div className="min-h-screen">
-      <header className="border-b border-slate-200/80 bg-white/70 backdrop-blur-md shadow-sm">
-        <div className="max-w-2xl mx-auto px-6 py-6">
+      <header className="relative border-b border-slate-200/60 bg-white/80 backdrop-blur-xl">
+        <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-blush to-terracotta/60 rounded-r" />
+        <div className="max-w-2xl mx-auto px-6 py-7 pl-8">
           <h1 className="font-display text-3xl font-semibold text-slate-800 tracking-tight">
             Makeup Match
           </h1>
-          <p className="text-slate-500 mt-1 font-light">
+          <p className="text-slate-500 mt-1 font-light text-[15px]">
             Upload a photo — AI analyzes your features and recommends makeup looks
           </p>
         </div>
       </header>
 
-      <main className="max-w-2xl mx-auto px-6 py-10">
+      <main className="max-w-2xl mx-auto px-6 py-12">
         {!result ? (
           <>
-            <UploadZone onUpload={handleUpload} disabled={loading} />
+            <div className={loading ? 'opacity-50 pointer-events-none' : 'animate-fade-up'}>
+              <UploadZone onUpload={handleUpload} disabled={loading} />
+            </div>
             {loading && (
-              <div className="mt-8 flex items-center gap-3 text-slate-500">
-                <div className="w-5 h-5 border-2 border-slate-200 border-t-slate-600 rounded-full animate-spin" />
-                <span className="text-sm">Analyzing your face and retrieving makeup tips…</span>
+              <div className="mt-10 flex items-center justify-center gap-4 animate-fade-up-delay">
+                <div className="flex gap-1">
+                  <span className="w-2 h-2 rounded-full bg-blush animate-bounce [animation-delay:-0.3s]" />
+                  <span className="w-2 h-2 rounded-full bg-terracotta/80 animate-bounce [animation-delay:-0.15s]" />
+                  <span className="w-2 h-2 rounded-full bg-sage/80 animate-bounce" />
+                </div>
+                <span className="text-sm text-slate-500">Analyzing your face and retrieving makeup tips…</span>
               </div>
             )}
             {error && (
-              <div className="mt-8 p-4 rounded-xl bg-rose-50/80 border border-rose-200 text-rose-700 text-sm">
+              <div className="mt-10 p-5 rounded-2xl bg-rose-50/90 border border-rose-200/80 text-rose-700 text-sm animate-fade-up shadow-soft">
                 {error}
               </div>
             )}
           </>
         ) : (
-          <Result data={result} onReset={handleReset} />
+          <div className="animate-fade-up">
+            <Result data={result} onReset={handleReset} />
+          </div>
         )}
       </main>
 
-      <footer className="mt-20 py-8 border-t border-slate-200/80 text-center text-xs text-slate-400">
-        Photos are used for analysis only and are not stored. Suggestions are general guidance — adjust to your preference.
+      <footer className="mt-24 py-10 border-t border-slate-200/50 text-center">
+        <p className="text-xs text-slate-400 max-w-md mx-auto leading-relaxed">
+          Photos are used for analysis only and are not stored. Suggestions are general guidance — adjust to your preference.
+        </p>
       </footer>
     </div>
   )
