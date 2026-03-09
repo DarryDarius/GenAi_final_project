@@ -1,0 +1,3 @@
+the following are the grading principle: Did you apply what we learned in class appropriately to your topic? For example, if your project is a social media bot, I will look at whether you appropriately considered responsible AI but not whether you used streamlit (i.e., you won't be penalized for not using things that are not relevant to your project). As mentioned in the slides, feel free to run your proposal by me if you have any questions.
+
+Please say as much as possible about how you used AI to build your project. That was one of the topics in the class, so I want to make sure you get credit for effective use of that

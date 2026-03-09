@@ -1,0 +1,23 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+dist/
+
+# ChromaDB
+backend/chroma_db/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
