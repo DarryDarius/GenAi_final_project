@@ -37,7 +37,9 @@ export default function UploadZone({ onUpload, disabled }) {
       />
       <div className="text-4xl mb-3">📷</div>
       <p className="font-medium text-stone-700">点击或拖拽上传面部照片</p>
-      <p className="text-sm text-stone-500 mt-1">支持 JPEG、PNG、WebP，建议正脸、光线充足</p>
+      <p className="text-sm text-stone-500 mt-1">
+        支持 JPEG、PNG、WebP。建议：正脸、光线充足、五官清晰（摘下眼镜分析更准确）
+      </p>
     </div>
   )
 }
